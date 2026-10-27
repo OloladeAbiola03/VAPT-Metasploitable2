@@ -1,0 +1,11 @@
+# Host connectivity verification
+ping -c 4 192.168.186.129
+
+# Host discovery
+sudo nmap -sn 192.168.186.129
+
+# Initial SSH port check
+sudo nmap -p 22 192.168.186.129
+
+# SSH service/version enumeration
+sudo nmap -sV -p 22 192.168.186.129

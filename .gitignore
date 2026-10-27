@@ -1,0 +1,6 @@
+*.iso
+*.vmdk
+*.ova
+*.vmem
+*.vswp
+*.log
